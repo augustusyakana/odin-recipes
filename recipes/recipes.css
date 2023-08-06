@@ -1,0 +1,131 @@
+body {
+    background-color:rgb(132, 244, 206);
+    width: 100%;
+
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    margin-top: -10px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(79, 148, 125);
+    height: 200px;
+    
+    
+}
+
+header h1 {
+    color: white;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+
+header h3 {
+    color: lightskyblue;
+    margin-top: 3px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#title {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(86, 39, 39);
+}
+
+#title img {
+    border: 5px solid black;
+    width: 250px;
+    margin-top: 20px;
+}
+
+#title h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+#title p {
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: -20px;
+}
+#instructions {
+    border: 5px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#ingredients {
+    width: 700px;
+    grid-column: 1/2;
+}
+
+#ingredients h1 {
+    padding: 20px;
+}
+
+#ingredients ul {
+    padding-left: 100px;
+}
+
+#ingredients li {
+    padding: 10px;
+}
+
+#directions {
+    width: 600px;
+    grid-column: 2/3;
+}
+
+#directions h1 {
+    padding: 20px;
+}
+
+#directions ol {
+    padding-left: 100px;
+}
+
+#directions li {
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(79, 148, 125);
+    height: 150px;
+}
+
+footer p {
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+footer h5 {
+    color: white;
+    font-size: 15px;
+    width: 170px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer img {
+    margin-top: 20px;
+    width: 300px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
