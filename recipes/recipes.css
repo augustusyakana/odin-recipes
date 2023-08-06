@@ -73,7 +73,7 @@ p .note {
 }
 
 #ingredients {
-    width: 50%;
+    width: 100%;
     grid-column: 1/2;
 }
 
@@ -82,7 +82,7 @@ p .note {
 }
 
 #ingredients ul {
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 #ingredients li {
@@ -90,7 +90,7 @@ p .note {
 }
 
 #directions {
-    width: 50;
+    width: 100%;
     grid-column: 2/3;
 }
 
@@ -100,7 +100,7 @@ p .note {
 
 #directions ol {
     padding-right: 10px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 #directions li {
