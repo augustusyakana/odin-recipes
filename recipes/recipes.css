@@ -32,6 +32,10 @@ header h3 {
     margin: 0 auto;
 }
 
+main {
+    text-align: center;
+}
+
 #title {
     padding: 10px;
     text-align: center;
@@ -57,7 +61,7 @@ header h3 {
     margin-top: -20px;
 }
 #instructions {
-    border: 5px solid gray;
+    text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -94,6 +98,25 @@ header h3 {
 
 #directions li {
     padding: 15px;
+}
+#button {
+    text-decoration: none;
+}
+
+#button h3 {
+    width: 180px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    background-color: brown;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px gray;
+}
+#button h3:hover {
+    transform: scale(1.1);
 }
 
 footer {
