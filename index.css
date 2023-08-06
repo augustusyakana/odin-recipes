@@ -5,14 +5,15 @@ body {
 }
 
 header {
+    text-align: center;
     width: 100%;
     margin-top: -10px;
     background-image: url(img/bg.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgb(79, 148, 125);
-    height: 100px;
-    text-align: center;
+    height: 200px;
+    
     
 }
 
@@ -20,7 +21,7 @@ h1 {
     color: white;
     width: 200px;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 50px;
     
 }
 
@@ -31,13 +32,87 @@ h3 {
     margin: 0 auto;
 }
 
+
+
 main {
-    border: 2px solid green;
+    padding: 20px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+h6 {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#pigshots, #sandwich, #sausage, #tacos {
+    width: 250px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#pigshots {
+    grid-column: 2/3;
+}
+
+#tacos {
+    grid-column: 4/5;
+}
+
+#sandwich {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#sausage {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+main img {
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px 3px gray;
+}
+
+main img:hover {
+    background-blend-mode: darken;
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(79, 148, 125);
+    height: 150px;
 }
 
 footer p {
     padding: 10px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+footer h5 {
+    color: white;
+    font-size: 15px;
+    width: 170px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer img {
+    margin-top: 20px;
+    width: 300px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
 }
