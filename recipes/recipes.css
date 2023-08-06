@@ -60,6 +60,12 @@ main {
     padding: 10px;
     margin-top: -20px;
 }
+
+p .note {
+    color: red;
+    padding: 10px;
+}
+
 #instructions {
     text-align: left;
     display: grid;
