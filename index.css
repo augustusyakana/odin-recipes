@@ -17,9 +17,13 @@ header {
     
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1 {
     color: white;
-    width: 200px;
+    width: 250px;
     margin: 0 auto;
     padding-top: 50px;
     
@@ -28,7 +32,7 @@ h1 {
 h3 {
     color: lightskyblue;
     margin-top: 3px;
-    width: 250px;
+    width: 280px;
     margin: 0 auto;
 }
 
