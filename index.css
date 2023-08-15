@@ -1,7 +1,8 @@
 body {
     background-color:rgb(132, 244, 206);
-    width: 100%;
-
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
